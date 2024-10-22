@@ -92,6 +92,6 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 }
 
-
+//Here  same operation for both reset and  new Game button
 newGameBtn.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame);
